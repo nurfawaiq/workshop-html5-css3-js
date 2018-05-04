@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Halaman Utama</title>
+	<style type="text/css">
+	/* Copyright yukcoding.blogspot.com */
+	body{
+		font-family: 'franklin gothic light', 'segoe ui', arial;
+		font-size: 14px;
+		margin: 20px 0;
+	}
+
+	#canvas{
+		width: 960px;
+		margin: 0 auto;
+		box-shadow: 0 0 10px;
+	}
+
+	#header{
+		padding: 30px;
+		font-size: 25px;
+	}
+
+	#menu{
+		background-color: #0066ff;
+	}
+	#menu ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#menu ul li.utama{
+		display: inline-table;
+	}
+	#menu ul li:hover{
+		background-color: #0033cc;
+	}
+	#menu ul li a{
+		display: block;
+		text-decoration: none;
+		line-height: 40px;
+		padding: 0 10px;
+		color: #fff;
+	}
+	.utama ul{
+		display: none;
+		position: absolute;
+		z-index: 2;
+	}
+	.utama:hover ul{
+		display: block;
+	}
+	.utama ul li{
+		display: block;
+		background-color: #6cf;
+		width: 140px;
+	}
+
+	#isi{
+		min-height: 410px;
+		padding: 20px;
+	}
+
+	#footer{
+		text-align: center;
+		padding: 20px;
+		background-color: #ccc;
+	}
+	</style>
+</head>
+<body>
+
+<div id="canvas">
+	<div id="header">
+		Web YukCoding
+	</div>
+
+	<div id="menu">
+		<ul>
+			<li class="utama"><a href="#">Beranda</a></li>
+				<li class="utama"><a href="">Mobil</a>
+					<ul>
+						<li><a href="">Jenis</a></li>
+						<li><a href="">Harga</a></li>
+					</ul>
+				</li>
+				<li class="utama"><a href="">Promo</a></li>
+				<li class="utama"><a href="">Dropdown</a>
+					<ul>
+						<li><a href="">Menu 1</a></li>
+						<li><a href="">Menu 2</a></li>
+						<li><a href="">Menu 3</a></li>
+					</ul>
+				</li>
+			</li>
+		</ul>
+	</div>
+
+	<div id="isi">
+		Selamat datang di website sederhana kami
+	</div>
+
+	<div id="footer">
+		Copyright 2016 - yukcoding.blogspot.com | www.yukcoding.id
+	</div>
+</div>
+
+</body>
+</html>

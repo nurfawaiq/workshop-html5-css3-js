@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan CSS Background</title>
+	<style type="text/css">
+	body {
+		font-family: segoe-ui, arial;
+		background-color: #f00;
+		-webkit-animation: color 5s ease-in 0s infinite alternate running;
+		-moz-animation: color 5s linear 0s infinite alternate running;
+		animation: color 5s linear 0s infinite alternate running;
+		margin: auto;
+	}
+
+	/* animasi */
+	@-webkit-keyframes color {
+		100% { background-color: #2ecc71; }
+	}
+	@-moz-keyframes color {
+		100% { background-color: #2ecc71; }
+	}
+	@keyframes color {
+		100% { background-color: #2ecc71; }
+	}
+	</style>
+<head>
+<body>
+	<div style="padding: 10px">Halo kawan, background saya berganti warna otomatis :)</div>
+</body>
+</html>

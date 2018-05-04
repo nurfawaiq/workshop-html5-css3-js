@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar JavaScript</title>
+</head>
+
+<body>
+
+	<h1>Belajar JavaScript</h1>
+
+	<p id="demo"></p>
+	
+	<script type="text/javascript">
+	var tanggalini = new Date();
+	var tgl_sekarang = tanggalini.getDate() + "/" + (tanggalini.getMonth()+1) + "/" + tanggalini.getFullYear();
+	var jam_sekarang = tanggalini.getHours() + ":" + tanggalini.getMinutes();
+	document.getElementById("demo").innerHTML = "Tanggal : " + tgl_sekarang + "<br> Jam : " + jam_sekarang;
+	</script>
+
+</body>
+</html> 
